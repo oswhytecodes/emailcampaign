@@ -24,7 +24,14 @@ header {
     align-items: center;
     padding: 1em 3em;
     font-family: helvetica;
+    width: 100%;
   }
+  @media screen and (max-width: 600px) {
+    nav {
+      background-color: lightgreen;
+    }
+  }
+
   ul {
     /*max-width: 800px;*/
     margin-left: auto;
