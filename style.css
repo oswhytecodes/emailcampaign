@@ -4,13 +4,13 @@
 *::after {
     box-sizing: border-box;
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
     
 }
 body {
     width: 100%;
-    
     font-family: helvetica, sans-serif;
+    background-image: url(img/bg.jpg);
 }
 /* Header */
 header {
@@ -22,7 +22,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: .5em 3em;
+    padding: 1em 3em;
     font-family: helvetica;
   }
   ul {
@@ -45,12 +45,31 @@ header {
     margin-right: auto;
     width: 80px;
   }
-  
+
+  .headline {
+    font-size: 3rem;
+  }
   /* Body */
   section {
-      margin: 0 auto;
-      padding: 1em 3em;
+      margin: auto;
   }
-  .intro {
-      width: 100%;
+#intro {
+  margin-top: 2em;
+}
+
+#card-grid {
+  margin: 1em auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+  .card {
+width: 100%;
+max-width: 200px;
+padding: 2em;
+margin: 1em;
+background-color: lightblue;
+border-radius: 20px;
   }
