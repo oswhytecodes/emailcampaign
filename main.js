@@ -1,6 +1,8 @@
-let nav = document.querySelector("#navigation")
-let burger = document.querySelector("burger-menu")
+let nav = document.querySelector('.nav-list')
+let burger = document.querySelector('.burger-menu')
+let header = document.getElementsByTagName('header')
 
-burger.addEventListener = ("click", => {
-    
+
+burger.addEventListener = ('click', () => {
+    nav.style.backgroundColor = 'red';
 })
