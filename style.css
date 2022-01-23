@@ -11,6 +11,7 @@ body {
     width: 100%;
     font-family: helvetica, sans-serif;
     background-image: url(img/bg.jpg);
+    background: cover;
 }
 /* Header */
 header {
@@ -26,18 +27,37 @@ header {
     font-family: helvetica;
     width: 100%;
   }
-  @media screen and (max-width: 600px) {
-    nav {
-      background-color: lightgreen;
+  .burger {
+    width: 22px;
+    height: 2px;
+    margin-top: 4px;
+    background-color: black;
+    border-radius:100px;
+  }
+  @media screen and (min-width: 600px) {
+    .burger {
+      display: none;
     }
   }
 
   ul {
-    /*max-width: 800px;*/
+    max-width: 800px;
     margin-left: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+  @media screen and (max-width: 600px) {
+    ul {
+      display: none;
+    }
+  }
+  #navigation .drop-down ul {
+    width: 100%;
+      display: flex;
+      flex-direction: column;
+      max-width: 300px;
+
   }
   li {
     list-style: none;
