@@ -1,0 +1,114 @@
+header {
+    width: 100%;
+    background: var(--clr-neutral-900);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, .1);
+    padding: 0 2em;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: var(--ff-accent);
+    color: #000;
+    display: block;
+    padding: 20px;
+}
+
+.menu a {
+    text-align: center;
+}
+
+.menu a:hover {
+    background: rgb(188, 225, 238);
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    max-height: 0;
+    display: none;
+    transition: max-height .3s ease-out;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+.menu-btn:checked~.menu {
+    display: block;
+    max-height: 250px;
+}
+
+.menu-btn:checked~.menu-icon .nav-icon {
+    background: transparent;
+}
+
+.menu-btn:checked~.menu-icon .nav-icon:before {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+.menu-btn:checked~.menu-icon .nav-icon:after {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+.menu-btn {
+    display: none;
+}
+
+.menu-icon {
+    position: absolute;
+    padding: 1em 2em;
+    top: 14px;
+    right: 0;
+}
+
+.nav-icon {
+    position: relative;
+    display: block;
+    height: 2px;
+    width: 20px;
+    background-color: #000;
+    transition: background-color .2s ease-out;
+}
+
+.nav-icon:before,
+.nav-icon:after {
+    position: absolute;
+    content: '';
+    display: block;
+    height: 2px;
+    width: 20px;
+    background-color: #000;
+    transition: all .2s ease-out;
+}
+
+.nav-icon:before {
+    top: -6px;
+}
+
+.nav-icon:after {
+    top: 6px;
+}
+
+@media screen and (min-width:680px) {
+    .menu-icon {
+        display: none;
+    }
+
+    .menu {
+        max-height: none;
+        display: flex;
+    }
+
+    nav {
+        display: flex;
+    }
+
+}

@@ -6,30 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
     <title>My Email Campaigns</title>
+
+
+    <style>
+        body {
+            background-image: url(img/bg3.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    </style>
 </head>
 
 <body>
 
     <header>
         <nav>
-            <a href="index.html"> Orincy Whyte Designs </a>
-            <ul id="navigation drop-down" class="nav-list">
+            <a class="logo" href="index.html"> OWD </a>
+
+            <input class="menu-btn" id="menu-btn" type="checkbox" />
+            <label class="menu-icon" for="menu-btn">
+                <span class="nav-icon"></span>
+            </label>
+
+
+            <ul class="menu">
                 <li> <a href="newsletter.html">newsletter.</a> </li>
                 <li> <a href="receipt.html">receipt.</a> </li>
                 <li> <a href="promotion.html">promotion.</a> </li>
             </ul>
-            <div class="burger-menu">
-                <div class="burger"></div>
-                <div class="burger"></div>
-                <div class="burger"></div>
-            </div>
+
         </nav>
     </header>
 
     <section id="intro">
 
-        <h3 class="headline"> <span>Html5 </span> & <span>CSS3</span> <br>Email Campaign</h3>
+        <h3 class="headline"> Html5 & CSS3 <br>Email Campaign</h3>
+        
         <p class="headline-text"> take a peak at my email templates</p>
     </section>
 
@@ -38,14 +53,28 @@
 
             <div class="card news">
                 <h2>Newsletter </h2>
+                <div class="line"> </div>
+                <p>
+                    A Newsletter email informs your audience on your brand's lastest news, deals. Any information you
+                    would love to share.
+                </p>
             </div>
 
 
             <div class="card receipt">
                 <h2>Receipt </h2>
+                <div class="line"> </div>
+                <p>
+                    A Receipt email solidifies transactions with details on order purchases.
+                </p>
             </div>
             <div class="card promo">
                 <h2>Promotional </h2>
+                <div class="line"> </div>
+                <p>
+                    A Promotional email is a great way to advertize products available for purchase. Also perfect for
+                    sales and discount marketing.
+                </p>
             </div>
         </div>
     </section>
