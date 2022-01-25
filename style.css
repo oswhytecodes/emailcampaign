@@ -84,7 +84,7 @@ section {
   border-radius: 20px;
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:460px) {
   .card {
     max-width: 20em;
   }
