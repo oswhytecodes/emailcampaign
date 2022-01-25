@@ -76,12 +76,18 @@ section {
 .card {
   width: 100%;
   font-family: var(--ff-accent);
-  max-width: 180px;
+  max-width: 14em;
   padding: 1.2em;
   font-size: .8rem;
   margin: 1em 2em;
   background-color: rgb(221, 240, 247, .8);
   border-radius: 20px;
+}
+
+@media screen and (max-width:450px) {
+  .card {
+    max-width: 20em;
+  }
 }
 .card:nth-child(even){
   background-color: rgba(206, 234, 241, 0.87)
