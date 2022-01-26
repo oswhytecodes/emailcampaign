@@ -89,7 +89,7 @@ section {
     max-width: 20em;
   }
 }
-.card:nth-child(even){
+.card:nth-child(odd){
   background-color: rgba(206, 234, 241, 0.87)
 }
 .card p {
@@ -97,7 +97,7 @@ section {
 }
 
 .line {
-  width: 110px;
+  width: 130px;
   height: 1px;
   background-color: #555;
   margin-top: 5px;
