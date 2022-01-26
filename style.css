@@ -97,8 +97,8 @@ section {
 }
 
 .line {
-  width: 130px;
-  height: 1px;
-  background-color: #ddd;
+  width: 140px;
+  height: 1.5px;
+  background-color: #808080;
   margin-top: 5px;
 }
