@@ -76,7 +76,7 @@ section {
 .card {
   width: 100%;
   font-family: var(--ff-accent);
-  max-width: 14em;
+  max-width: 16em;
   padding: 1.2em;
   font-size: .8rem;
   margin: 1em 2em;
