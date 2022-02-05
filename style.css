@@ -25,6 +25,7 @@ body {
   font-family: var(--ff-primary);
   background-color: whitesmoke;
 }
+
 #intro {
   margin-top: 2em;
   text-align: center;
@@ -36,12 +37,14 @@ body {
   margin-bottom: 6px;
 
 }
+
 @media screen and (min-width:680px) {
   .headline {
     font-size: 2.8rem;
     line-height: 1.2;
     margin-bottom: 10px;
   }
+
   #intro {
     margin-top: 4em;
   }
@@ -60,9 +63,7 @@ section {
   padding: 1em 0 2em 0;
 }
 
-@media screen and (max-width: 680px) {
- 
-}
+@media screen and (max-width: 680px) {}
 
 #card-grid {
   margin: auto;
@@ -82,6 +83,7 @@ section {
   margin: 1em 2em;
   background-color: rgb(221, 240, 247, .8);
   border-radius: 20px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, .1);
 }
 
 @media screen and (max-width:460px) {
@@ -89,9 +91,11 @@ section {
     max-width: 20em;
   }
 }
-.card:nth-child(even){
+
+.card:nth-child(even) {
   background-color: rgba(206, 234, 241, 0.87)
 }
+
 .card p {
   margin-top: 5px;
 }
