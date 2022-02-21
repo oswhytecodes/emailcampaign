@@ -1,40 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="menu.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="menu.css" />
 
     <title>Receipt Email Campaign</title>
-</head>
 
-<body>
-    
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      table {
+        border-spacing: 0;
+      }
+
+      #wrapper {
+        width: 100%;
+        table-layout: fixed;
+        padding-top: 20px;
+        padding-bottom: 60px;
+        background-color: #cccccc;
+        margin: 0 auto;
+        border-spacing: 0;
+      }
+
+      #main {
+        width: 100%;
+        margin: 0 auto;
+        /* background-color: #eeeeee; */
+        max-width: 600px;
+        padding: 10px 10px 30px 10px;
+        line-height: 1.5;
+
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .table-row {
+        /* padding-bottom: 10px; */
+      }
+      #line {
+          background-color: #bbbbbb;
+          width: 100%;
+          height: 10px;
+          content: '';
+      }
+      .button {
+        text-decoration: none;
+        border-radius: 5px;
+        display: inline-block;
+        color: #ffffff;
+        padding: 6px 15px;
+        margin: auto;
+        text-align: center;
+        margin: 0 auto;
+        background-color: #9db5ba;
+      }
+.table-head {
+    font-weight: bold;
+    padding: 0 5px;
+
+}
+.receipt-data {
+    padding: 1px 20px;
+}
+.table-head.row {
+    padding-bottom: 40px;
+}
+      a {
+          font-size: 8px;
+      }
+    </style>
+  </head>
+
+  <body>
     <header>
-        <nav>
-            <a class="logo" href="index.html"> OWD </a>
-           
-            <input class="menu-btn" id="menu-btn" type="checkbox" />
-            <label class="menu-icon" for="menu-btn">
-                <span class="nav-icon"></span>
-            </label>
-            
-            
-            <ul class="menu">
-                <li> <a href="newsletter.html">newsletter.</a> </li>
-                <li> <a href="receipt.html">receipt.</a> </li>
-                <li> <a href="promotion.html">promotion.</a> </li>
-            </ul>
+      <nav>
+        <a class="logo" href="index.html"> OWD </a>
 
-        </nav>
+        <input class="menu-btn" id="menu-btn" type="checkbox" />
+        <label class="menu-icon" for="menu-btn">
+          <span class="nav-icon"></span>
+        </label>
+
+        <ul class="menu">
+          <li><a href="newsletter.html">newsletter.</a></li>
+          <li><a href="receipt.html">receipt.</a></li>
+          <li><a href="promotion.html">promotion.</a></li>
+        </ul>
+      </nav>
     </header>
 
-  
+    <section>
+      <center id="wrapper">
+        <table id="main">
+          <tr>
+            <td>
+              <!---------- First Row------------------------------------------------  -->
+              <tr>
+                <td>
+                  <table
+                    class="table-row"
+                    style="width: 100%; background-color: #072f5f"
+                  >
+                    <tr>
+                      <td>
+                        <h3 style="padding: 20px 20px; color: #ffffff">
+                          Beretun
+                        </h3>
+                      </td>
 
-        
-</body>
+                      <td
+                        style="
+                          width: 100%;
+                          display: inline-flex;
+                          align-items: center;
+                          justify-content: center;
+                        "
+                      >
+                        <p style="color: #ffffff">Shop</p>
+                        </td>
+                        <td>
+                        <a href=""
+                          ><img width="20px" src="img/icons/cart.svg" alt=""
+                        /></a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!----------  End of First Row------------------------------------------------  -->
 
+              <!---------- Second Row (thank you for order)--------------------------  -->
+              <tr style="width: 100%; background-color: #f3f2ef">
+                <td>
+                  <table class="table-row" style="padding: 20px">
+                    <tr>
+                      <td class="icon" style="text-align: center">
+                        <img width="100px" src="img/icons/sail.svg" alt="" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: center; padding-bottom: 16px;">
+                        <h1>Thank You For Your Order</h1>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="padding-top: 10px">
+                        <h4>Hello Name</h4>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Sunt tempora earum quaerat! Autem nesciunt vero
+                          nobis pariatur sit consectetur nulla.
+                        </p>
+                      </td>
+                    </tr>
+                    <tr></tr>
+                  </table>
+                </td>
+              </tr>
+              <!----------  End of Second Row------------------------------------------------  -->
+
+              <!---------- Third Row------------------------------------------------  -->
+              <tr>
+                <td>
+                  <table
+                    class="table-row"
+                    style="
+                      width: 100%;
+                      background-color: #f3f2ef;
+                      padding: 20px;
+                    "
+                  >
+                    <tr style="background-color: #e5e3e4">
+
+                      <td class="table-head">Order Confirmation #</th>
+                      <td class="table-head" style=" margin-bottom: 20px;">2345678</th>
+                        
+                    </tr>
+                    <tr >
+                      <td class="receipt-data" style=" padding-top: 10px;">Purchased Item (1)</td>
+                      <td class="receipt-data"  style=" padding-top: 10px;">$100.00</td>
+                    </tr>
+                    <tr>
+                      <td class="receipt-data" >Shipping + Handling</td>
+                      <td class="receipt-data" >$10.00</td>
+                    </tr>
+                    <tr>
+                      <td class="receipt-data" style="padding-bottom: 12px;" >Sales Tax</td>
+                      <td class="receipt-data" style="padding-bottom: 12px;" >$5.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <span id="line"> </span>
+                        </td>
+                    </tr>
+                    <tr>
+                      <td class="receipt-data" >TOTAL</td>
+                      <td class="receipt-data" >$115.00</td>
+                    </tr>
+<tr>
+                        <td>
+                            <span id="line"> </span>
+                        </td>
+                    </tr>
+                    <table
+                      class="table-row"
+                      style="
+                        width: 100%;
+                        background-color: #f3f2ef;
+                        padding: 20px;
+                      "
+                    >
+                      <tr>
+                        <td>
+                          <tr class="table-head row">
+                            <td class="table-head" style=" padding-bottom: 10px;">Delivery Address</th>
+                            <td class="table-head" style=" padding-bottom: 10px;">Estimated Delivery Date</th>
+                          </tr>
+                          <tr style="padding-top: 50px">
+                            <td class="receipt-data" >675 Massachusetts Avenue</td>
+                            <td class="receipt-data" >January 1st, 2022</td>
+                          </tr>
+                          <tr>
+                              <td class="receipt-data" >
+                                  11th Floor
+                              </td>
+                          </tr>
+                          <tr>
+                              <td class="receipt-data"  style=" padding-bottom: 20px;">
+                                  Cambridge, MA 02139
+                              </td>
+                          </tr>
+                        </td>
+                      </tr>
+                 
+                  </table>
+                </td>
+              </tr>
+
+              <!----------  End of Third Row------------------------------------------------  -->
+              <!---------- Fourth Row - blue bg------------------------------------------------  -->
+              <tr>
+                <td>
+                  <table
+                    style="
+                      background-color: #3abcbd;
+                      width: 100%;
+                      padding: 40px;
+                    "
+                  >
+                    <tr>
+                      <td style="text-align: center">
+                        <h4 style="color: #eeeeee">
+                          Get 25% off your next order
+                        </h4>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td style="text-align: center; padding-top: 10px;">
+                        <a href="" class="button">View Order</a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+              <!----------  End of Fourth Row------------------------------------------------  -->
+
+              <!---------- Fifth Row - blue bg------------------------------------------------  -->
+
+<tr>
+    <td>
+        <table class="table-row"
+                      style="
+                        width: 100%;
+                        background-color: #f3f2ef;
+                        padding: 20px;
+                      "
+                    >
+<tr>
+    <td style="text-align: center; padding-bottom: 10px;">
+        <img width="30px" src="img/icons/B.svg" alt="">
+    </td>
+</tr>
+<tr>
+    <td style="text-align: center;">
+        <p style="line-height: 1.2; font-size: 12px; font-weight: bold; padding-bottom: 20px;">221 Fifth Avenue
+            <br>
+        New York, NY 12345</p>
+    </td>
+</tr>
+<tr>
+    <td>
+        <p style="font-size: 8px; color: #bbbbbb;">If you didn't create an account using this email address, please ignore this email or <a href="">Unsubscribe</a></p>
+    </td>
+</tr>
+
+        </table>
+    </td>
+</tr>
+
+              <!----------  End of Fifth Row------------------------------------------------  -->
+            </td>
+          </tr>
+        </table>
+      </center>
+    </section>
+  </body>
 </html>
