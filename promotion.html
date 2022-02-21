@@ -1,274 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="menu.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="menu.css" />
 
     <title>Promotional Email Campaign</title>
     <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        #wrapper {
-            width: 100%;
-            background-color: #cccccc;
-            table-layout: fixed;
-            padding: 10px 0 60px 0;
-        }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      #wrapper {
+        width: 100%;
+        background-color: #cccccc;
+        table-layout: fixed;
+        padding: 10px 0 60px 0;
+      }
 
-        #main {
-            width: 100%;
-            margin: 0 auto;
-            background-color: #ffffff;
-            max-width: 600px;
-            padding: 10px 10px 60px 10px;
-            line-height: 1.5;
-        }
+      #main {
+        width: 100%;
+        margin: 0 auto;
+        background-color: #ffffff;
+        max-width: 600px;
+        padding: 10px 10px 30px 10px;
+        line-height: 1.5;
+      }
 
-        .table-row {
-            padding-bottom: 30px;
-        }
-
-        .button {
-            background-color: #138282;
-            display: inline-block;
-            color: #ffffff;
-            padding: 10px 15px;
-            text-align: center;
-            margin: 0 auto;
-        }
-        a {
-            text-decoration: none;
-        }
+      .table-row {
+        padding-bottom: 30px;
+      }
+      span {
+        color: #138282;
+      }
+      .button {
+        background-color: #138282;
+        display: inline-block;
+        color: #ffffff;
+        padding: 10px 15px;
+        margin: auto;
+        text-align: center;
+        margin: 0 auto;
+      }
+      a {
+        text-decoration: none;
+        color: #138282;
+      }
+      .section-list {
+        margin-left: 30px;
+      }
+      .final-links {
+        vertical-align: middle;
+        text-decoration: underline;
+        font-size: 10px;
+        color: #000;
+        padding-right: 8px;
+        padding-left: 8px;
+      }
+      .final-links.one,
+      .final-links.two {
+        border-right: 1px solid #000000;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <nav>
-            <a class="logo" href="index.html"> OWD </a>
-           
-            <input class="menu-btn" id="menu-btn" type="checkbox" />
-            <label class="menu-icon" for="menu-btn">
-                <span class="nav-icon"></span>
-            </label>
-            
-            
-            <ul class="menu">
-                <li> <a href="newsletter.html">newsletter.</a> </li>
-                <li> <a href="receipt.html">receipt.</a> </li>
-                <li> <a href="promotion.html">promotion.</a> </li>
-            </ul>
+      <nav>
+        <a class="logo" href="index.html"> OWD </a>
 
-        </nav>
+        <input class="menu-btn" id="menu-btn" type="checkbox" />
+        <label class="menu-icon" for="menu-btn">
+          <span class="nav-icon"></span>
+        </label>
+
+        <ul class="menu">
+          <li><a href="newsletter.html">newsletter.</a></li>
+          <li><a href="receipt.html">receipt.</a></li>
+          <li><a href="promotion.html">promotion.</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Email Template starts-->
     <section>
-        <center id="wrapper">
-            <table id="main">
-                <tr>
-                    <td>
-                <tr>
-                    <!--First Row-->
-                    <td>
-                        <table class="table-row" width="100%" style="
-                    text-align: center;">
-                            <tr class="logo">
-                                <td> <a href="https://www.orincywhyte.com/"> <img width="100px" src="img/logo.jpg"
-                                            alt="Business Logo" title="Business logo"></a> </td>
-                            </tr>
-                            <tr>
-                                <td style="padding-bottom: 20px;">
-                                    <h1>Welcome Back Friends</h1>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, incidunt.</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="padding-top: 20px;"> <a class="button"
-                                        href="https://www.orincywhyte.com/">READ MORE</a> </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
+      <center id="wrapper">
+        <table id="main">
+          <tr>
+            <td>
+              <tr>
                 <!--First Row-->
-                <tr>
-                    <!--Second Row photo-->
-                    <td>
-                        <table class="table-row">
-                            <tr width="100%"  style="margin: auto;">
-                                <td> <a href=""><img style="width: 100%; " src="img/marketing/image1.png" alt=""></a>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <!--Second Row-->
-                <tr>
-                    <!--Third Row Heavy Text-->
-                    <td>
-                        <table class="table-row">
-                            <tr>
-                                <td>
-                                    <h2 style="text-align: center; padding-bottom: 30px;"> Secondary Headline</h2>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p style="padding-bottom: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. Laudantium nesciunt, itaque, repellendus culpa a eligendi iusto at tenetur
-                                        in alias molestias eius? Et, inventore minima!</p>
-                                </td>
-                            </tr>
-
-                            <tr style="padding: 20px 20px; ">
-                                <td style="display: list-item; margin-left: 40px;">
-                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="display: list-item;  margin-left: 40px;">
-                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="display: list-item;  margin-left: 40px;">
-                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="padding-top: 20px;"> <a class="button"
-                                        href="https://www.orincywhyte.com/">READ MORE</a> </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <!--Third Row-->
-                <!-- border line-->
-                <tr style=" padding-bottom: 20px">
-
-                    <td width="100%" style="height: 2px; width: 100%;background-color: #cccccc;">
-
-                    </td>
-                </tr>
-                <!--Border line-->
-
-                <!--Fourth Row TWO COLUMN ROWS-->
-                <tr>
-                    <td>
-                        <table class="table-row" style=" padding-top: 40px">
-                            <tr>
-                                <td>
-
-                                    <table>
-                                        <tr>
-                                            <td>
-                                                <img width="150px" src="img/marketing/image2.jpeg" alt=""> </td>
-
-                                            <td>
-                                                <h3>Hello Again</h3>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-                                                    perspiciatis perferendis numquam vero quod sequi ab? <a href="">
-                                                        Read more here</a> </p>
-                                            </td>
-
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-
-                                    <table>
-                                        <tr>
-
-
-                                            <td>
-                                                <h3>Hello Again</h3>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-                                                    perspiciatis perferendis numquam vero quod sequi ab? <a href="">
-                                                        Read more here</a> </p>
-                                            </td>
-                                            <td style=" padding-bottom: 20px"> <img width="150px"
-                                                    src="img/marketing/image3.jpg" alt=""> </td>
-
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-
-                </tr>
-                <!--FOURTH Row-->
-                <!-- border line-->
-                <tr style=" padding-bottom: 20px">
-
-                    <td width="100%" style="height: 2px; width: 100%;background-color: #cccccc;">
-
-                    </td>
-                </tr>
-                <!--Border line-->
-                <!-- Last Row-->
-                <tr >
-
-                    <td>
-                        <table>
-                            <tr>
-                                <td>
-                                    <p>A little sign off and final reminder that it's worth being a subscriber and
-                                        engaging with your emails and products/services.</p>
-
-                                </td>
-                            </tr>
-                            <tr>
-                                <td> <a class="button" href="https://www.orincywhyte.com/">READ MORE</a> </td>
-
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p> Any address information, legal, terms etc to be added here</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a href=""> Email Preferences</a>
-                                    <a href="">Unsubscribe</a>
-                                    <a href=""> View Online</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a href=""><img src="" alt=""></a>
-                                    <a href=""><img src="" alt=""></a>
-                                    <a href=""><img src="" alt=""></a>
-
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <!--Last Row-->
-                <!--End of Email-->
+                <td>
+                  <table
+                    class="table-row"
+                    width="100%"
+                    style="text-align: center"
+                  >
+                    <tr class="logo">
+                      <td>
+                        <a href="https://www.orincywhyte.com/">
+                          <img
+                            width="100px"
+                            src="img/logo.jpg"
+                            alt="Business Logo"
+                            title="Business logo"
+                        /></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="padding-bottom: 20px">
+                        <h1>Welcome Back Friends</h1>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Similique, incidunt.
+                        </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="padding-top: 20px">
+                        <a class="button" href="https://www.orincywhyte.com/"
+                          >READ MORE</a
+                        >
+                      </td>
+                    </tr>
+                  </table>
                 </td>
-                </tr>
-            </table>
-        </center>
+              </tr>
+              <!--First Row-->
+              <tr>
+                <!--Second Row photo-->
+                <td>
+                  <table class="table-row" style="width: 100%">
+                    <tr width="100%">
+                      <td>
+                        <a href=""
+                          ><img
+                            style="margin:0; width: 100%;"
+                            src="img/marketing/image1.png"
+                            alt=""
+                        /></a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!--Second Row-->
+              <tr>
+                <!--Third Row Heavy Text-->
+                <td>
+                  <table class="table-row">
+                    <tr>
+                      <td>
+                        <h2
+                          style="
+                            text-align: center;
+                            padding-bottom: 30px;
+                            color: #138282;
+                          "
+                        >
+                          Secondary Headline
+                        </h2>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p style="padding-bottom: 20px">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Laudantium nesciunt, itaque, repellendus culpa a
+                          eligendi iusto at tenetur in alias molestias eius? Et,
+                          inventore minima!
+                        </p>
+                      </td>
+                    </tr>
 
+                    <tr style="padding: 20px 20px">
+                      <td>
+                        <li class="section-list" style="">
+                          <span style="">Lorem ipsum dolor sit </span>amet
+                          consectetur adipisicing elit.
+                        </li>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="">
+                        <li class="section-list">
+                          <span>Lorem ipsum dolor sit</span> amet consectetur
+                          adipisicing elit.
+                        </li>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="">
+                        <li class="section-list">
+                          <span>Lorem ipsum dolor sit</span> amet consectetur
+                          adipisicing elit.
+                        </li>
+                      </td>
+                    </tr>
+                    <tr style="text-align: center; width: 100%">
+                      <td style="padding-top: 20px">
+                        <a class="button" href="https://www.orincywhyte.com/"
+                          >READ MORE</a
+                        >
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!--Third Row-->
+              <!-- border line-->
+              <tr style="padding-bottom: 20px">
+                <td
+                  width="100%"
+                  style="height: 2px; width: 100%; background-color: #cccccc"
+                ></td>
+              </tr>
+              <!--Border line-->
+
+              <!--Fourth Row TWO COLUMN ROWS-->
+              <tr>
+                <td>
+                  <table class="table-row" style="padding-top: 40px">
+                    <tr>
+                      <td>
+                        <table>
+                          <tr>
+                            <td>
+                              <img
+                                width="150px"
+                                src="img/marketing/image2.jpeg"
+                                alt=""
+                              />
+                            </td>
+
+                            <td
+                              style="
+                                vertical-align: top;
+                                margin-top: 0;
+                                padding-left: 10px;
+                              "
+                            >
+                              <h3>Hello Again</h3>
+                              <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Id perspiciatis perferendis
+                                numquam vero quod sequi ab?
+                                <a href="#"> Read more here</a>
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <table>
+                          <tr>
+                            <td
+                              style="vertical-align: top; padding-right: 10px"
+                            >
+                              <h3>Hello Again</h3>
+                              <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Id perspiciatis perferendis
+                                numquam vero quod sequi ab?
+                                <a href="#"> Read more here</a>
+                              </p>
+                            </td>
+                            <td>
+                              <img
+                                width="150px"
+                                src="img/marketing/image3.jpg"
+                                alt="woman with flower"
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!--FOURTH Row-->
+              <!-- border line-->
+              <tr>
+                <td
+                  width="100%"
+                  style="height: 2px; width: 100%; background-color: #cccccc"
+                ></td>
+              </tr>
+              <!--Border line-->
+              <!-- Last Row-->
+              <tr>
+                <td>
+                  <table style="margin-top: 20px">
+                    <tr>
+                      <td>
+                        <p style="text-align: center">
+                          A little sign off and final reminder that it's worth
+                          being a subscriber and engaging with your emails and
+                          products/services.
+                        </p>
+                      </td>
+                    </tr>
+                    <tr style="text-align: center; width: 100%">
+                      <td style="padding: 20px 0px">
+                        <a class="button" href="https://www.orincywhyte.com/"
+                          >Drive to Web</a
+                        >
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!--Last Row-->
+              <!--End of Email-->
+            </td>
+          </tr>
+        </table>
+        <table>
+          <tr style="">
+            <td style="text-align: center; padding-top: 30px">
+              <p style="font-size: 10px">
+                Any address information, legal, terms etc to be added here
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding-top: 10px; text-align: center">
+              <a class="final-links one" href=""> Email Preferences</a>
+
+              <a class="final-links two" href="">Unsubscribe</a>
+
+              <a class="final-links three" href=""> View Online</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding-top: 15px; text-align: center">
+              <a href="#"><img width="20px" style="margin-right:10px;" src="img/icons/facebook logo.svg" alt="facebook icon" /></a>
+
+              <a href="#"><img width="20px" style="margin-right:10px;" src="img/icons/instagram logo.svg" alt="instagram icon" /></a>
+              <a href="#"><img width="20px" src="img/icons/twitter.svg" alt="twitter icon" /></a>
+            </td>
+          </tr>
+        </table>
+      </center>
     </section>
-
-</body>
-
+  </body>
 </html>

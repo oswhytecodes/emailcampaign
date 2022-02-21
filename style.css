@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;900&display=swap");
 
 *,
 *::before,
@@ -8,17 +7,15 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-
 }
 
 :root {
   --clr-accent-200: #f7d781;
   --clr-neutral-900: rgb(221, 240, 247);
 
-  --ff-accent: 'Raleway', sans-serif;
-  --ff-primary: 'PlayFair Display', serif;
+  --ff-accent: "Raleway", sans-serif;
+  --ff-primary: "PlayFair Display", serif;
 }
-
 
 body {
   width: 100%;
@@ -35,10 +32,9 @@ body {
   font-size: 2rem;
   line-height: 1.2;
   margin-bottom: 6px;
-
 }
 
-@media screen and (min-width:680px) {
+@media screen and (min-width: 680px) {
   .headline {
     font-size: 2.8rem;
     line-height: 1.2;
@@ -56,14 +52,14 @@ section {
   margin: auto;
 }
 
-
 .project-grid {
   width: 100%;
   margin: 1em auto;
   padding: 1em 0 2em 0;
 }
 
-@media screen and (max-width: 680px) {}
+@media screen and (max-width: 680px) {
+}
 
 #card-grid {
   margin: auto;
@@ -79,35 +75,37 @@ section {
   font-family: var(--ff-accent);
   max-width: 16em;
   padding: 1.2em;
-  font-size: .8rem;
+  font-size: 0.8rem;
   margin: 1em 2em;
-  background-color: rgb(221, 240, 247, .8);
+  background-color: rgb(221, 240, 247, 0.8);
   border-radius: 20px;
-  box-shadow: 1px 1px 6px rgba(0, 0, 0, .1);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
 }
 
-@media screen and (max-width:460px) {
+@media screen and (max-width: 460px) {
   .card {
     max-width: 20em;
   }
 }
-<<<<<<< HEAD
 
 .card:nth-child(even) {
-=======
-.card:nth-child(odd){
->>>>>>> d214bfc6e889e0875877d8cdb3cf1aa32c6872c9
-  background-color: rgba(206, 234, 241, 0.87)
+  background-color: rgba(206, 234, 241, 0.87);
 }
 
 .card p {
   margin-top: 5px;
-  font-size:1.2rem;
+  font-size: 1.2rem;
 }
-
+.project-grid a {
+  text-decoration: none;
+  color: black;
+}
 .line {
   width: 140px;
   height: 1.5px;
   background-color: #808080;
   margin-top: 5px;
+}
+ul li::before {
+  color: #138282;
 }
