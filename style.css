@@ -106,6 +106,4 @@ section {
   background-color: #808080;
   margin-top: 5px;
 }
-ul li::before {
-  color: #138282;
-}
+
