@@ -1,89 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="menu.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="menu.css" />
+    <script
+      src="https://kit.fontawesome.com/1b8cd20e19.js"
+      crossorigin="anonymous"
+    ></script>
     <title>My Email Campaigns</title>
 
-
     <style>
-        body {
-            background-image: url(img/bg3.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center center;
-        }
+      body {
+        /* background-image: url(img/bg3.jpg); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <nav>
-            <a class="logo" href="index.html"> OWD </a>
+      <nav>
+        <a class="logo" href="index.html"> OWD </a>
 
-            <input class="menu-btn" id="menu-btn" type="checkbox" />
-            <label class="menu-icon" for="menu-btn">
-                <span class="nav-icon"></span>
-            </label>
-            <ul class="menu">
-                <li> <a href="newsletter.html">newsletter.</a> </li>
-                <li> <a href="receipt.html">receipt.</a> </li>
-                <li> <a href="promotion.html">promotion.</a> </li>
-            </ul>
-
-        </nav>
+        <input class="menu-btn" id="menu-btn" type="checkbox" />
+        <label class="menu-icon" for="menu-btn">
+          <span class="nav-icon"></span>
+        </label>
+        <ul class="menu">
+          <li><a href="newsletter.html">newsletter.</a></li>
+          <li><a href="receipt.html">receipt.</a></li>
+          <li><a href="promotion.html">promotion.</a></li>
+        </ul>
+      </nav>
     </header>
 
     <section id="intro">
+      <h3 class="headline">Html5 & CSS3 <br />Email Campaign</h3>
 
-        <h3 class="headline"> Html5 & CSS3 <br>Email Campaign</h3>
-
-        <p class="headline-text"> take a peak at my email templates</p>
+      <p class="headline-text">email templates built with html tables</p>
     </section>
 
     <section class="project-grid">
-        <div id="card-grid">
+      <div id="card-grid">
+        <a href="newsletter.html">
+          <div class="card news">
+            <h2 class="card-title">Newsletter</h2>
+            <span class="line"></span>
+            <p>
+              Email newsletters are a type of email that informs your audience
+              of the latest news, tips, or updates about your product or
+              company. Some are weekly digests of content, some are quarterly
+              organization updates, and others promote new products, but there's
+              no end to what you can include in a newsletter.
+            </p>
+          </div>
+        </a>
 
-            <a href="newsletter.html">
-                <div class="card news">
-                    <h2>Newsletter </h2>
-                    <div class="line"> </div>
-                    <p>
-                  Email newsletters are a type of email that informs your audience of the latest news, tips, or updates about your product or company. ... Some are weekly digests of content, some are quarterly organization updates, and others promote new products, but there's no end to what you can include in a newsletter.
-                    </p>
-                </div>
-            </a>
+        <a href="promotion.html">
+          <div class="card promo">
+            <h2 class="card-title">Promotional</h2>
+            <span class="line"></span>
+            <p>
+              The primary focus of a promotional email is to get the word out to
+              potential customers about your product or service. Common email
+              promotions include coupons or other discounts, access to exclusive
+              content, or admittance to an invitation-only event.
+            </p>
+          </div>
+        </a>
 
-
-            <a href="receipt.html">
-                <div class="card receipt">
-                    <h2>Receipt </h2>
-                    <div class="line"> </div>
-                    <p>
-                
-                An electronic receipt, or e-receipt, is a proof of purchase issued instead of a paper receipt, usually via email, for any goods or services that have been paid for.Feb
-                    </p>
-                </div>
-            </a>
-            
-            <a href="promotion.html">
-                <div class="card promo">
-                    <h2>Promotional </h2>
-                    <div class="line"> </div>
-                    <p>
-                        The primary focus of a promotional email is to get the word out to potential customers about your product or service. Common email promotions include coupons or other discounts, access to exclusive content, or admittance to an invitation-only event.
-                    </p>
-                </div>
-            </a>
+        <a href="receipt.html">
+          <div class="card receipt">
+            <h2 class="card-title">Receipt</h2>
+            <span class="line"></span>
+            <p>
+              An electronic receipt, or e-receipt, is a proof of purchase issued
+              instead of a paper receipt, usually via email, for any goods or
+              services that have been paid for.
+            </p>
+          </div>
+        </a>
+      </div>
+    </section> 
+    <footer>
+      <div>
+        <p class="footer-title">Let's Work Together</p>
+        <a
+          href="mailto:orincywhyte@gmail.com"
+          aria-label="email for contact"
+          target="_blank"
+        >
+          orincywhyte@gmail.com
+        </a>
+        <br />
+        <a
+          href="https://www.orincywhyte.com/links"
+          aria-label="website link"
+          target="_blank"
+        >
+          orincywhyte.com
+        </a>
+        <div class="footer-icons">
+          <a href="https://github.com/oswhytecodes" aria-label="github link">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/orincywhyte/"
+            aria-label="linkedin link"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/oswhytecodes/"
+            aria-label="instagram link"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UC_3pNhSyYoZk3Z201kZvgsg"
+            aria-label="youtube link"
+          >
+            <i class="fa-brands fa-youtube"></i>
+          </a>
         </div>
-    </section>
+      </div>
 
+      <div>
+        <p>Built by Orincy Whyte</p>
+        <p>Frontend Developer : Graphic Designer</p>
+      </div>
+    </footer>
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>
