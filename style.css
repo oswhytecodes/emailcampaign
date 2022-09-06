@@ -32,7 +32,7 @@ section {
 
 #intro {
   text-align: center;
-  padding-top: 4em;
+  padding-top: 3em;
   background-color: rgba(124, 188, 188, 0.608);
 }
 
@@ -47,7 +47,6 @@ section {
   display: flex;
   flex-direction: row;
   padding-bottom: 5em;
-
   background-color: var(--clr-background);
 }
 
@@ -70,7 +69,7 @@ section {
   line-height: 1.4;
   border-radius: 10px;
   padding: 1.2em 2em;
-  margin-top: 3em;
+  margin-top: 2em;
   transition: transform 400ms ease-in-out;
 
   background-color: rgb(221, 240, 247, 0.8);
@@ -99,9 +98,6 @@ section {
   background-color: #000;
   /* transform: rotate(90deg); */
 }
-
-
-
 .card p {
   margin-top: 5px;
   font-size: 1.2rem;
