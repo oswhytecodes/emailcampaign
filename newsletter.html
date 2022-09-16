@@ -1,221 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./img/icons/favicon.png" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="menu.css" />
     <title>Newsletter Email Campaign</title>
-    
+
     <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
 
-        table {
-            border-spacing: 0;
-        }
+      table {
+        border-spacing: 0;
+      }
 
-        .wrapper {
-            width: 100%;
-            table-layout: fixed;
-            padding-top: 20px;
-            padding-bottom: 60px;
-            background-color: #cccccc;
-            margin: 0 auto;
-            border-spacing: 0;
-        }
+      .wrapper {
+        width: 100%;
+        table-layout: fixed;
+        padding-top: 20px;
+        padding-bottom: 60px;
+        background-color: #cccccc;
+        margin: 0 auto;
+        border-spacing: 0;
+      }
 
-        .main {
-            width: 100%;
-            margin: auto;
-            padding: 10px 10px 60px 10px;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        .table-row-head {
-            margin: auto;
-            text-align: center;
-        }
+      .main {
+        width: 100%;
+        margin: auto;
+        padding: 10px 10px 60px 10px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .table-row-head {
+        margin: auto;
+        text-align: center;
+      }
 
-        .table-row {
-            margin: auto;
-            padding: 40px 0 30px 0;
-            line-height: 1.5;
-        }
-        .links {
-            color: #a020f0;
-            font-weight: 600;
-            text-align: left;
-            text-decoration: underline;
-        }
+      .table-row {
+        margin: auto;
+        padding: 40px 0 30px 0;
+        line-height: 1.5;
+      }
+      .links {
+        color: #a020f0;
+        font-weight: 600;
+        text-align: left;
+        text-decoration: underline;
+      }
 
-        .row-head {
-            font-weight: 800;
-            text-align: center;
-            padding-bottom: 20px;
-        }
-        .row-text {
-            padding-bottom: 15px;
-        }
-        .table-img {
-            padding-bottom: 20px;
-        }
+      .row-head {
+        font-weight: 800;
+        text-align: center;
+        padding-bottom: 20px;
+      }
+      .row-text {
+        padding-bottom: 15px;
+      }
+      .table-img {
+        padding-bottom: 20px;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <a class="logo" href="index.html"> OWD </a>
-           
-            <input class="menu-btn" id="menu-btn" type="checkbox" />
-            <label class="menu-icon" for="menu-btn">
-                <span class="nav-icon"></span>
-            </label>
-            
-            
-            <ul class="menu">
-                <li> <a href="newsletter.html">newsletter.</a> </li>
-                <li> <a href="receipt.html">receipt.</a> </li>
-                <li> <a href="promotion.html">promotion.</a> </li>
-            </ul>
+      <nav>
+        <a class="logo" href="index.html"> OWD </a>
 
-        </nav>
+        <input class="menu-btn" id="menu-btn" type="checkbox" />
+        <label class="menu-icon" for="menu-btn">
+          <span class="nav-icon"></span>
+        </label>
+
+        <ul class="menu">
+          <li><a href="newsletter.html">newsletter.</a></li>
+          <li><a href="receipt.html">receipt.</a></li>
+          <li><a href="promotion.html">promotion.</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <section>
-        <center class="wrapper">
-            <table class="main" width="100%" style="max-width: 600px; background-color: #ffffff;">
-
-                <!-- first row - HEADER -->
-                <tr>
-                    <td>
-                        <table class="table-row-head" width="100%" style="padding: 20px 0 10px 0">
-                            <tr>
-                                <td class="logo-news">
-                                    <img style="width: 60px;" src="img/logo_g.svg" alt=""> </td>
-                            </tr>
-                            <tr>
-                                <td style="padding-top: 10px;font-size: 22px; font-weight: 800;"> NEWS FROM YOUR FRIENDS </td>
-                            </tr>
-                            <tr>
-                                <td style="padding-top: 10px;"> Summer Edition </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr> <!-- FIRST ROW-->
-
-                <tr>
-                    <td>
-                        <table class="table-row">
-                            <tr>
-                                <td> <img class="table-img" width="100%" src="img/newsletter/1.png" alt="Summer sun and clouds" title="Summer sun and clouds"></td>
-                            </tr>
-                            <tr>
-                                <td class="row-head">Summer is here!</td>
-                            </tr>
-                            <tr>
-                                <td class="row-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quo totam quos
-                                    voluptatem sequi harum tenetur ullam dignissimos eius id. Iure voluptatem cumque
-                                    provident voluptas saepe facilis atque ex? </td>
-                            </tr>
-                            <tr>
-                                <td style="font-size: 10px;"><a class="links" href="">Read More Accessible Emails</a>
-                                </td>
-                            </tr>
-                        </table>
-
-                <tr>
-                    <td>
-                        <table class="table-row">
-                            <tr>
-                                <td> <img class="table-img" width="100%" src="img/newsletter/3.png" alt=""></td>
-                            </tr>
-                            <tr>
-                                <td td class="row-head"> But fall will be here soon</td>
-                            </tr>
-                            <tr>
-                                <td class="row-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quo totam quos
-                                    voluptatem sequi harum tenetur ullam dignissimos eius id. Iure voluptatem cumque
-                                    provident voluptas saepe facilis atque ex? </td>
-                            </tr>
-                            <tr>
-                                <td style="font-size: 10px;"><a class="links" href="">Read More Accessible Emails</a>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-
-
-                <tr>
-                    <td>
-                        <table class="table-row">
-                            <tr>
-                                <td> <img class="table-img" width="100%" src="img/newsletter/2.png" alt=""></td>
-                            </tr>
-                            <tr>
-                                <td td class="row-head"> Who's ready for winter?</td>
-                            </tr>
-                            <tr>
-                                <td class="row-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quo totam quos
-                                    voluptatem sequi harum tenetur ullam dignissimos eius id. Iure voluptatem cumque
-                                    provident voluptas saepe facilis atque ex? </td>
-                            </tr>
-                            <tr>
-                                <td style="font-size: 10px;"><a class="links" href="">Read More Accessible Emails</a>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <table>
-                            <tr>
-                                <td class="line" width="100%" height="30">
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-
-
-                <tr>
-                    <td>
-                        <table>
-                            <tr>
-                                <td style="font-size: 8px; padding-bottom: 10px;">
-                                    You received this email because you care about creating more accessible experiences
-                                    for people. Don't worry, <a href="" class="links"> you can subscribe here.</a>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td style="font-size: 8px;">
-                                    <span style="font-weight: 600">Your Friends</span> 1234 Maple Street, Anywhere, US, 12345
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-
-
+    <center class="wrapper">
+      <table
+        class="main"
+        width="100%"
+        style="max-width: 600px; background-color: #ffffff"
+        border="0"
+        cellpadding="0"
+        cellspacing="0"
+        style="min-width: 100%"
+        role="presentation"
+      >
+        <!-- first row - HEADER -->
+        <tr>
+          <td>
+            <table
+              class="table-row-head"
+              width="100%"
+              style="padding: 20px 0 10px 0"
+            >
+              <tr>
+                <td class="logo-news">
+                  <img style="width: 60px" src="img/logo_g.svg" alt="" />
                 </td>
-                </tr>
-
-                <!-- You shall not pass-->
-
+              </tr>
+              <tr>
+                <td
+                  style="padding-top: 10px; font-size: 22px; font-weight: 800"
+                >
+                  NEWS FROM YOUR FRIENDS
+                </td>
+              </tr>
+              <tr>
+                <td style="padding-top: 10px">Summer Edition</td>
+              </tr>
             </table>
-        </center>
-    </section>
+          </td>
+        </tr>
+        <!-- FIRST ROW-->
 
+        <tr>
+          <td>
+            <table class="table-row">
+              <tr>
+                <td>
+                  <img
+                    class="table-img"
+                    width="100%"
+                    src="img/newsletter/1.png"
+                    alt="Summer sun and clouds"
+                    title="Summer sun and clouds"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td class="row-head">Summer is here!</td>
+              </tr>
+              <tr>
+                <td class="row-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptas quo totam quos voluptatem sequi harum tenetur ullam
+                  dignissimos eius id. Iure voluptatem cumque provident voluptas
+                  saepe facilis atque ex?
+                </td>
+              </tr>
+              <tr>
+                <td style="font-size: 10px">
+                  <a class="links" href="">Read More Accessible Emails</a>
+                </td>
+              </tr>
+            </table>
 
-</body>
+            <tr>
+              <td>
+                <table class="table-row">
+                  <tr>
+                    <td>
+                      <img
+                        class="table-img"
+                        width="100%"
+                        src="img/newsletter/3.png"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td td class="row-head">But fall will be here soon</td>
+                  </tr>
+                  <tr>
+                    <td class="row-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Voluptas quo totam quos voluptatem sequi harum tenetur
+                      ullam dignissimos eius id. Iure voluptatem cumque
+                      provident voluptas saepe facilis atque ex?
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="font-size: 10px">
+                      <a class="links" href="">Read More Accessible Emails</a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
 
+            <tr>
+              <td>
+                <table class="table-row">
+                  <tr>
+                    <td>
+                      <img
+                        class="table-img"
+                        width="100%"
+                        src="img/newsletter/2.png"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td td class="row-head">Who's ready for winter?</td>
+                  </tr>
+                  <tr>
+                    <td class="row-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Voluptas quo totam quos voluptatem sequi harum tenetur
+                      ullam dignissimos eius id. Iure voluptatem cumque
+                      provident voluptas saepe facilis atque ex?
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="font-size: 10px">
+                      <a class="links" href="">Read More Accessible Emails</a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td class="line" width="100%" height="30"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td style="font-size: 8px; padding-bottom: 10px">
+                      You received this email because you care about creating
+                      more accessible experiences for people. Don't worry,
+                      <a href="" class="links"> you can subscribe here.</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td style="font-size: 8px">
+                      <span style="font-weight: 600">Your Friends</span> 1234
+                      Maple Street, Anywhere, US, 12345
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </td>
+        </tr>
+
+        <!-- You shall not pass-->
+      </table>
+    </center>
+  </body>
 </html>
